@@ -1,0 +1,22 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "react-scan-widget-settings-v2",
+          "value": "{\"corner\":\"bottom-right\",\"dimensions\":{\"isFullWidth\":false,\"isFullHeight\":false,\"width\":550,\"height\":350,\"position\":{\"x\":24,\"y\":24}},\"lastDimensions\":{\"isFullWidth\":false,\"isFullHeight\":false,\"width\":550,\"height\":350,\"position\":{\"x\":24,\"y\":24}},\"componentsTree\":{\"width\":240}}"
+        },
+        {
+          "name": "react-scan-options",
+          "value": "{\"enabled\":false,\"log\":false,\"showToolbar\":true,\"animationSpeed\":\"fast\",\"dangerouslyForceRunInProduction\":false,\"showFPS\":true,\"showNotificationCount\":true,\"allowInIframe\":false}"
+        },
+        {
+          "name": "appStore",
+          "value": "{\"state\":{\"user\":{\"id\":\"ea3fec93-683b-4bbe-b04c-111bc49fdbdc\",\"firebaseId\":\"jYNJwyU7kjeTTOvBs9NiFts8eWO2\",\"firstName\":\"Test\",\"lastName\":\"Test\",\"fullName\":\"Test Test\",\"email\":\"test@test.com\",\"profilePictureUrl\":null,\"isDeleted\":false,\"createdAt\":\"2026-01-23T16:24:21.990Z\",\"updatedAt\":\"2026-01-23T16:24:21.990Z\"},\"hasHydrated\":true},\"version\":1}"
+        }
+      ]
+    }
+  ]
+}

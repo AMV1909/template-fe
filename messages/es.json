@@ -1,0 +1,171 @@
+{
+    "components": {
+        "Combobox": {
+            "select-option": "Selecciona una opción",
+            "search-options": "Buscar opciones...",
+            "no-options-found": "No se encontraron opciones.",
+            "all": "Todos"
+        }
+    },
+    "errors": {
+        "network": "Error de red, por favor intenta nuevamente más tarde",
+        "unknown": "Algo salió mal. Por favor intenta nuevamente."
+    },
+    "LoginPage": {
+        "title": "Iniciar Sesión",
+        "description": "Inicia sesión en tu cuenta",
+        "form": {
+            "email": {
+                "label": "Correo Electrónico",
+                "placeholder": "Ingresa tu correo electrónico",
+                "required": "El correo electrónico es requerido",
+                "invalid": "Correo electrónico inválido"
+            },
+            "password": {
+                "label": "Contraseña",
+                "placeholder": "Ingresa tu contraseña",
+                "required": "La contraseña es requerida"
+            },
+            "submit": "Iniciar Sesión",
+            "loading": "Iniciando sesión...",
+            "errors": {
+                "network": "Error de red, por favor intenta nuevamente más tarde",
+                "unauthorized": "No autorizado, por favor verifica tus credenciales"
+            },
+            "success": "Iniciada sesión correctamente"
+        },
+        "forgot-password": "¿Olvidaste tu contraseña?",
+        "no-account": "¿No tienes una cuenta?",
+        "signUp": "Registrarse"
+    },
+    "ResetPasswordPage": {
+        "title": "Restablecer Contraseña",
+        "description": "Restablece tu contraseña",
+        "form": {
+            "email": {
+                "label": "Correo Electrónico",
+                "placeholder": "Ingresa tu correo electrónico",
+                "required": "El correo electrónico es requerido",
+                "invalid": "Correo electrónico inválido"
+            },
+            "submit": "Enviar Correo de Restablecimiento de Contraseña",
+            "loading": "Enviando correo de restablecimiento de contraseña...",
+            "error": "Error al enviar el correo de restablecimiento de contraseña. Por favor intenta nuevamente más tarde.",
+            "success": "Correo de restablecimiento de contraseña enviado a tu correo electrónico"
+        },
+        "backToLogin": "Volver a Iniciar sesión"
+    },
+    "SignUpPage": {
+        "title": "Registro",
+        "description": "Regístrate para comenzar",
+        "form": {
+            "firstName": {
+                "label": "Nombre",
+                "placeholder": "Ingresa tu nombre",
+                "required": "El nombre es requerido",
+                "maxLength": "El nombre debe ser menor a 255 caracteres"
+            },
+            "lastName": {
+                "label": "Apellido",
+                "placeholder": "Ingresa tu apellido",
+                "required": "El apellido es requerido",
+                "maxLength": "El apellido debe ser menor a 255 caracteres"
+            },
+            "email": {
+                "label": "Correo Electrónico",
+                "placeholder": "Ingresa tu correo electrónico",
+                "required": "El correo electrónico es requerido",
+                "invalid": "Correo electrónico inválido",
+                "maxLength": "El correo electrónico debe ser menor a 255 caracteres"
+            },
+            "profilePicture": {
+                "label": "Foto de Perfil",
+                "placeholder": "Sube tu foto de perfil",
+                "invalid": "La foto de perfil debe ser una imagen válida",
+                "maxSize": "La foto de perfil debe ser menor a {maxSize}MB"
+            },
+            "password": {
+                "label": "Contraseña",
+                "placeholder": "Ingresa tu contraseña",
+                "required": "La contraseña debe tener al menos 8 caracteres",
+                "maxLength": "La contraseña debe ser menor a 255 caracteres",
+                "confirm": {
+                    "label": "Confirmar Contraseña",
+                    "placeholder": "Confirma tu contraseña",
+                    "required": "La confirmación de contraseña es requerida",
+                    "match": "Las contraseñas no coinciden"
+                }
+            },
+            "submit": "Registrarse",
+            "loading": "Registrando...",
+            "errors": {
+                "conflict": "El correo electrónico ya está en uso"
+            },
+            "success": "Registrado correctamente"
+        },
+        "already-have-account": "¿Ya tienes una cuenta?",
+        "login": "Iniciar Sesión"
+    },
+    "TodosPage": {
+        "title": "Todos",
+        "description": "Tu lista de todos",
+        "form": {
+            "search": {
+                "label": "Buscar",
+                "placeholder": "Buscar un todo"
+            },
+            "status": {
+                "label": "Estado",
+                "placeholder": "Selecciona el estado del todo",
+                "all": "Todos",
+                "TODO": "Pendiente",
+                "IN_PROGRESS": "En Progreso",
+                "COMPLETED": "Completado"
+            },
+            "title": {
+                "label": "Título",
+                "placeholder": "Ingresa el título del todo",
+                "required": "El título es requerido",
+                "maxLength": "El título debe ser menor a 255 caracteres"
+            },
+            "description": {
+                "label": "Descripción",
+                "placeholder": "Ingresa la descripción del todo",
+                "maxLength": "La descripción debe ser menor a 255 caracteres"
+            },
+            "image": {
+                "label": "Imagen",
+                "placeholder": "Sube la imagen del todo",
+                "invalid": "La imagen debe ser una imagen válida",
+                "maxSize": "La imagen debe ser menor a {maxSize}MB"
+            },
+            "submit": {
+                "create": "Crear Todo",
+                "edit": "Editar Todo"
+            },
+            "errors": {
+                "network": "Error de red, por favor intenta nuevamente más tarde",
+                "unknown": "Algo salió mal. Por favor intenta nuevamente."
+            },
+            "success": {
+                "create": "Todo creado correctamente",
+                "edit": "Todo actualizado correctamente",
+                "delete": "Todo eliminado correctamente"
+            }
+        },
+        "todos": {
+            "title": "Título",
+            "description": "Descripción",
+            "createdAt": "Creado el",
+            "updatedAt": "Actualizado el",
+            "actions": {
+                "add": "Crear Todo",
+                "edit": "Editar Todo",
+                "delete": "Eliminar Todo",
+                "confirm-delete": "¿Estás seguro de querer eliminar este todo?"
+            }
+        },
+        "loadMore": "Cargar más",
+        "logout": "Cerrar sesión"
+    }
+}

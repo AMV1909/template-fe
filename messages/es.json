@@ -106,6 +106,11 @@
         "already-have-account": "¿Ya tienes una cuenta?",
         "login": "Iniciar Sesión"
     },
+    "ErrorPage": {
+        "title": "Algo salió mal",
+        "description": "Ocurrió un error inesperado. Intenta nuevamente.",
+        "retry": "Reintentar"
+    },
     "TodosPage": {
         "title": "Todos",
         "description": "Tu lista de todos",

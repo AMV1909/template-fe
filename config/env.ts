@@ -11,6 +11,9 @@ const envSchema = z.object({
     NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: string().min(1),
     NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: string().min(1),
     NEXT_PUBLIC_FIREBASE_APP_ID: string().min(1),
+
+    // LogRocket
+    NEXT_PUBLIC_LOGROCKET_APP_ID: string().min(1),
 });
 
 type Env = z.infer<typeof envSchema>;
@@ -31,6 +34,8 @@ function validateEnv(): Env {
                 process.env["NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID"],
             NEXT_PUBLIC_FIREBASE_APP_ID:
                 process.env["NEXT_PUBLIC_FIREBASE_APP_ID"],
+            NEXT_PUBLIC_LOGROCKET_APP_ID:
+                process.env["NEXT_PUBLIC_LOGROCKET_APP_ID"],
         });
     } catch (error) {
         if (error instanceof ZodError) throw new Error(prettifyError(error));

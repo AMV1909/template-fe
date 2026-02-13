@@ -174,6 +174,9 @@ NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+
+# LogRocket
+NEXT_PUBLIC_LOGROCKET_APP_ID=your_logrocket_app_id
 ```
 
 ### Installation

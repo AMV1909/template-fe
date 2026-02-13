@@ -12,6 +12,8 @@ import { toast, Toaster } from "react-hot-toast";
 import { AxiosError } from "axios";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
+import "@/config/logRocket";
+
 interface Props {
     children: ReactNode;
     locale: string;
